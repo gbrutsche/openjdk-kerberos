@@ -25,8 +25,8 @@
 
 package sun.util.calendar;
 
-import java.io.ByteArrayInputStream;
 import java.io.BufferedInputStream;
+import java.io.ByteArrayInputStream;
 import java.io.DataInput;
 import java.io.DataInputStream;
 import java.io.File;
@@ -45,12 +45,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Objects;
-import java.util.Set;
 import java.util.SimpleTimeZone;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.zip.CRC32;
+
 import sun.security.action.GetPropertyAction;
 
 /**

@@ -25,11 +25,13 @@
 
 package sun.security.krb5.internal.crypto;
 
-import sun.security.krb5.KrbCryptoException;
-import sun.security.krb5.internal.*;
 import java.security.GeneralSecurityException;
-import sun.security.krb5.EncryptedData;
+
 import sun.security.krb5.Checksum;
+import sun.security.krb5.EncryptedData;
+import sun.security.krb5.KrbCryptoException;
+import sun.security.krb5.internal.Krb5;
+import sun.security.krb5.internal.KrbApErrException;
 
 /*
  * This class encapsulates the encryption type for AES128
